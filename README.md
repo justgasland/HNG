@@ -4,7 +4,7 @@
 ReelRead AI is an entertainment-focused agent built with Django and Google Gemini.  
 It provides personalized movie and book recommendations and connects to Telex through the A2A workflow system.
 
----
+
 
 ## Overview
 
@@ -12,7 +12,7 @@ ReelRead AI uses Gemini for natural conversation and Django for backend logic.
 It responds to messages about movies, books, and shows, avoiding plot spoilers and unrelated topics.  
 The app is deployed to Railway and integrated with Telex to act as an A2A coworker.
 
----
+
 
 ## Features
 
@@ -22,7 +22,7 @@ The app is deployed to Railway and integrated with Telex to act as an A2A cowork
 - Django-based API endpoint  
 - Clear separation of chat logic and request handling
 
----
+
 
 ## Tech Stack
 
@@ -31,11 +31,7 @@ The app is deployed to Railway and integrated with Telex to act as an A2A cowork
 - **Integration:** Telex A2A  
 - **Deployment:** Railway  
 
----
 
-
-
----
 
 ## Setup
 
@@ -78,8 +74,6 @@ python manage.py migrate
 ```bash
 python manage.py runserver
 ```
-
----
 
 ## Telex Configuration
 
@@ -127,11 +121,7 @@ Send a POST request to your `/reelread` endpoint with the following structure:
     }
   }
 }
-```
 
-You should receive a response containing the agent’s reply in JSON-RPC format.
-
----
 
 ## Deployment
 
@@ -163,8 +153,4 @@ After deployment, update the Telex node URL in `telex.json` to match your live e
 }
 ```
 
----
 
-
-Would you like me to make a **shorter version** too — one that fits a GitHub repo summary (just setup + usage, about half this length)?
-```
